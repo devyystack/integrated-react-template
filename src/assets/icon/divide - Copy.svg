@@ -1,0 +1,53 @@
+var _path, _defs;
+
+var _excluded = ["title", "titleId"];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import * as React from "react";
+
+function SvgDivide(_ref, svgRef) {
+  var title = _ref.title,
+      titleId = _ref.titleId,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 462,
+    height: 13,
+    viewBox: "0 0 462 13",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M228.589 1.88953L231.041 0L233.493 1.88953C236.68 4.30814 240.194 5.51744 244.281 5.51744H454.318C454.808 4.00581 456.279 2.87209 458.077 2.87209C460.284 2.87209 462 4.53488 462 6.5C462 8.46512 460.202 10.1279 458.077 10.1279C456.279 10.1279 454.726 8.99419 454.318 7.48256H244.281C240.194 7.48256 236.598 8.69186 233.493 11.1105L231.041 13L228.589 11.1105C225.402 8.69186 221.888 7.48256 217.801 7.48256H7.68229C7.27366 8.9186 5.72086 10.0523 3.92287 10.0523C1.79798 10.0523 0 8.46512 0 6.42442C0 4.38372 1.79798 2.79651 3.92287 2.79651C5.72086 2.79651 7.27366 3.93023 7.68229 5.44186H217.719C221.806 5.51744 225.402 4.30814 228.589 1.88953Z",
+    fill: "url(#paint0_linear_179_41367)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_179_41367",
+    x1: 231,
+    y1: 0,
+    x2: 231,
+    y2: 13,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFF8E2"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.411458,
+    stopColor: "#EDB100"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.849603,
+    stopColor: "#FFDF80"
+  })))));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgDivide);
+export default __webpack_public_path__ + "static/media/divide.f155dc49.svg";
+export { ForwardRef as ReactComponent };

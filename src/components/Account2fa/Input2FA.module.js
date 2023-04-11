@@ -1,0 +1,2 @@
+// extracted by mini-css-extract-plugin
+module.exports = {"container":"Input2FA_container__2qxCc","header":"Input2FA_header__1HHwN","wrapper":"Input2FA_wrapper__1RwQQ","input":"Input2FA_input__2uY1f","description":"Input2FA_description__2iPrU"};

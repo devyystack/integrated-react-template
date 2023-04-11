@@ -1,0 +1,2 @@
+// extracted by mini-css-extract-plugin
+module.exports = {"container":"TicketInput_container__2lHq-","title":"TicketInput_title__nWvr6","inputWrapper":"TicketInput_inputWrapper__DH2HP","label":"TicketInput_label__15CMv"};

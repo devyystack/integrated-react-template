@@ -1,0 +1,90 @@
+var _path, _path2, _path3, _defs;
+
+var _excluded = ["title", "titleId"];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import * as React from "react";
+
+function SvgPgActive(_ref, svgRef) {
+  var title = _ref.title,
+      titleId = _ref.titleId,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 74,
+    height: 23,
+    viewBox: "0 0 74 23",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M73.2048 5.00759V17.973C73.2048 20.7485 71.6017 23 69.6286 23H3.57623C1.58772 23 0 20.7485 0 17.973V5.00759C0 2.23207 1.60314 0 3.57623 0H69.6286C71.6017 0 73.2048 2.25148 73.2048 5.00759Z",
+    fill: "#9EFC86"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M73.2048 5.80334V17.1772C73.2048 19.6033 71.6017 21.5831 69.6286 21.5831H3.57623C1.58772 21.5831 0 19.6033 0 17.1772V5.80334C0 3.37718 1.60314 1.41684 3.57623 1.41684H69.6286C71.6017 1.41684 73.2048 3.37718 73.2048 5.80334Z",
+    fill: "url(#paint0_linear_278_5868)"
+  })), /*#__PURE__*/React.createElement("g", {
+    style: {
+      mixBlendMode: "screen"
+    }
+  }, _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M71.6014 5.78415V6.32761C71.6014 8.07445 70.5378 9.49132 69.2121 9.49132H3.57596C2.03449 9.49132 0.785889 7.84153 0.785889 5.80356C0.785889 4.07613 1.86492 2.63985 3.17518 2.63985H69.2275C70.5378 2.62044 71.6014 4.03731 71.6014 5.78415Z",
+    fill: "url(#paint1_linear_278_5868)"
+  }))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_278_5868",
+    x1: 36.6007,
+    y1: 0.425414,
+    x2: 36.6007,
+    y2: 27.5722,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#41D163"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2659,
+    stopColor: "#30B95A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.3737,
+    stopColor: "#239D5F"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5305,
+    stopColor: "#117966"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6143,
+    stopColor: "#0B6B68"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6593,
+    stopColor: "#107568"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.7349,
+    stopColor: "#1E8F66"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8314,
+    stopColor: "#34B964"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8801,
+    stopColor: "#41D163"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_278_5868",
+    x1: 70.7696,
+    y1: 6.05141,
+    x2: -9.91628,
+    y2: 6.05141,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#A1C472"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1
+  })))));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgPgActive);
+export default __webpack_public_path__ + "static/media/pg-active.861c1020.svg";
+export { ForwardRef as ReactComponent };

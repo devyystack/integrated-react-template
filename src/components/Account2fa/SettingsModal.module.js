@@ -1,0 +1,2 @@
+// extracted by mini-css-extract-plugin
+module.exports = {"wrapper":"SettingsModal_wrapper__3k3VX","container":"SettingsModal_container__1rSmt","slideup":"SettingsModal_slideup__2nAyt","CloseButton":"SettingsModal_CloseButton__2V7NR","header":"SettingsModal_header__2AcSk","title":"SettingsModal_title__2sOWF","contentWrapper":"SettingsModal_contentWrapper__WE4V1","authenticator":"SettingsModal_authenticator__WKhFE","footer":"SettingsModal_footer__3rAtc"};
